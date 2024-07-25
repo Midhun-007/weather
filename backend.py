@@ -16,6 +16,5 @@ def get_data(place,days,task=None):
         filtered_data=[i['weather'][0]['main'] for i in filtered_data]
 
     return filtered_data
-b=get_data('tokyo',2,'Day')
-print(b)
+
 
